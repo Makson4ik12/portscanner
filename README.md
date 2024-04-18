@@ -4,19 +4,20 @@ Utility for searching open ports on a remote server
 
 ## Requirements
 
-CMake 3.22+
-g++
+- CMake 3.22+
+- g++
 
 ## Target OS
 
 Linux
 
 ## Build
-
+```
 mkdir build
 cd build
 cmake ../../portscanner
 cmake --build ../build
+```
 
 ## Usage
 ```
